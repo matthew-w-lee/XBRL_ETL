@@ -37,9 +37,10 @@ You'll need it to access the interface.
 ## Usage
 #### Arelle REST API and Client
 The Arelle REST API is provided by a docker container. The API accepts a call with the web address on the SEC website of the XBRL instance file to be processed and a requested type of XBRL data file. The Arelle server provides several different types of XBRL data files coinciding with the specifications of the XBRL standard. The ones of particular concern for this project are:
-* pre (presentation information on the line items and their order in each report/statement found in the filing)
-* facts (numeric and date information related to each line item)
+* pre.xml (presentation information on the line items and their order in each report/statement found in the filing)
+* facts.xml (numeric and date information related to each line item)
 
+#### Jupyter Notebook interface
 The Jupyter Notebook interface communicates with the Arelle REST API via methods provided by the arelle_client.py file. The notebook provides a method for downloading files obtained from the API to local disk but it is not necessary to use it in exploring this project. Sample xml files are included in the repository in the directory arelle_xbrl. The files are organized in folder, the first level being by CIK (a company's unique ID with the SEC) and then the second level being by accession number (a filing's unique ID with the SEC).
 
 The second cell of the notebook provides classes that model the downloaded XBRL files and the company/accession_number directory structure.
