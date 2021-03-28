@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factTable>
+    <linkRole role="http://www.cannaeholdings.com/role/Cover">
+        <facts concept="dei:CoverAbstract">
+            <facts concept="dei:DocumentType">
+                <fD2019Q4YTD>10-K/A</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:DocumentAnnualReport">
+                <fD2019Q4YTD>true</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:DocumentPeriodEndDate">
+                <fD2019Q4YTD>2019-12-31</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:DocumentTransitionReport">
+                <fD2019Q4YTD>false</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityFileNumber">
+                <fD2019Q4YTD>1-38300</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityRegistrantName">
+                <fD2019Q4YTD>CANNAE HOLDINGS, INC.</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityIncorporationStateCountryCode">
+                <fD2019Q4YTD>DE</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityTaxIdentificationNumber">
+                <fD2019Q4YTD>82-1273460</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityAddressAddressLine1">
+                <fD2019Q4YTD>1701 Village Center Circle,</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityAddressCityOrTown">
+                <fD2019Q4YTD>Las Vegas,</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityAddressStateOrProvince">
+                <fD2019Q4YTD>NV</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityAddressPostalZipCode">
+                <fD2019Q4YTD>89134</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:CityAreaCode">
+                <fD2019Q4YTD>702</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:LocalPhoneNumber">
+                <fD2019Q4YTD>323-7330</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:Security12bTitle">
+                <fD2019Q4YTD>Cannae Common Stock, $0.0001&#160;par value</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:TradingSymbol">
+                <fD2019Q4YTD>CNNE</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:SecurityExchangeName">
+                <fD2019Q4YTD>NYSE</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityWellKnownSeasonedIssuer">
+                <fD2019Q4YTD>Yes</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityVoluntaryFilers">
+                <fD2019Q4YTD>No</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityCurrentReportingStatus">
+                <fD2019Q4YTD>Yes</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityInteractiveDataCurrent">
+                <fD2019Q4YTD>Yes</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityFilerCategory">
+                <fD2019Q4YTD>Large Accelerated Filer</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntitySmallBusiness">
+                <fD2019Q4YTD>false</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityEmergingGrowthCompany">
+                <fD2019Q4YTD>false</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityShellCompany">
+                <fD2019Q4YTD>false</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityPublicFloat">
+                <fI2019Q2>1941307497</fI2019Q2>
+            </facts>
+            <facts concept="dei:EntityCommonStockSharesOutstanding">
+                <i2020Q1SD>79516833</i2020Q1SD>
+            </facts>
+            <facts concept="dei:AmendmentFlag">
+                <fD2019Q4YTD>false</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:DocumentFiscalYearFocus">
+                <fD2019Q4YTD>2019</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:DocumentFiscalPeriodFocus">
+                <fD2019Q4YTD>FY</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:EntityCentralIndexKey">
+                <fD2019Q4YTD>0001704720</fD2019Q4YTD>
+            </facts>
+            <facts concept="dei:CurrentFiscalYearEndDate">
+                <fD2019Q4YTD>--12-31</fD2019Q4YTD>
+            </facts>
+        </facts>
+    </linkRole>
+</factTable>

@@ -1,0 +1,19 @@
+version: '3'
+services:
+  
+  arelle:
+    stdin_open: true
+    image: kidicarus44/arelle_web_api
+    command: ""
+    ports:
+      - "8080:8080"
+
+  jupyter_notebook:
+    image: jupyter/scipy-notebook:17aba6048f44
+    command: ""
+    volumes:
+      - ./src/:/home/jovyan/src
+    ports:
+      - "8888:8888"
+    depends_on:
+      - arelle

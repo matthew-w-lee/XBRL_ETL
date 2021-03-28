@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<factList>
+    <item name="dei:AmendmentFlag">
+        <label>dei:AmendmentFlag</label>
+        <value>false</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:CurrentFiscalYearEndDate">
+        <label>dei:CurrentFiscalYearEndDate</label>
+        <value>--12-31</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:DocumentFiscalPeriodFocus">
+        <label>dei:DocumentFiscalPeriodFocus</label>
+        <value>FY</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:DocumentFiscalYearFocus">
+        <label>dei:DocumentFiscalYearFocus</label>
+        <value>2019</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityCentralIndexKey">
+        <label>dei:EntityCentralIndexKey</label>
+        <value>0001704720</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:DocumentType">
+        <label>dei:DocumentType</label>
+        <value>10-K/A</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:DocumentAnnualReport">
+        <label>dei:DocumentAnnualReport</label>
+        <value>true</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:DocumentPeriodEndDate">
+        <label>dei:DocumentPeriodEndDate</label>
+        <value>2019-12-31</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:DocumentTransitionReport">
+        <label>dei:DocumentTransitionReport</label>
+        <value>false</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityFileNumber">
+        <label>dei:EntityFileNumber</label>
+        <value>1-38300</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityRegistrantName">
+        <label>dei:EntityRegistrantName</label>
+        <value>CANNAE HOLDINGS, INC.</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityIncorporationStateCountryCode">
+        <label>dei:EntityIncorporationStateCountryCode</label>
+        <value>DE</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityTaxIdentificationNumber">
+        <label>dei:EntityTaxIdentificationNumber</label>
+        <value>82-1273460</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityAddressAddressLine1">
+        <label>dei:EntityAddressAddressLine1</label>
+        <value>1701 Village Center Circle,</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityAddressCityOrTown">
+        <label>dei:EntityAddressCityOrTown</label>
+        <value>Las Vegas,</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityAddressStateOrProvince">
+        <label>dei:EntityAddressStateOrProvince</label>
+        <value>NV</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityAddressPostalZipCode">
+        <label>dei:EntityAddressPostalZipCode</label>
+        <value>89134</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:CityAreaCode">
+        <label>dei:CityAreaCode</label>
+        <value>702</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:LocalPhoneNumber">
+        <label>dei:LocalPhoneNumber</label>
+        <value>323-7330</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:Security12bTitle">
+        <label>dei:Security12bTitle</label>
+        <value>Cannae Common Stock, $0.0001&#160;par value</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:TradingSymbol">
+        <label>dei:TradingSymbol</label>
+        <value>CNNE</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:SecurityExchangeName">
+        <label>dei:SecurityExchangeName</label>
+        <value>NYSE</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityWellKnownSeasonedIssuer">
+        <label>dei:EntityWellKnownSeasonedIssuer</label>
+        <value>Yes</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityVoluntaryFilers">
+        <label>dei:EntityVoluntaryFilers</label>
+        <value>No</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityCurrentReportingStatus">
+        <label>dei:EntityCurrentReportingStatus</label>
+        <value>Yes</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityInteractiveDataCurrent">
+        <label>dei:EntityInteractiveDataCurrent</label>
+        <value>Yes</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityFilerCategory">
+        <label>dei:EntityFilerCategory</label>
+        <value>Large Accelerated Filer</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntitySmallBusiness">
+        <label>dei:EntitySmallBusiness</label>
+        <value>false</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityEmergingGrowthCompany">
+        <label>dei:EntityEmergingGrowthCompany</label>
+        <value>false</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityShellCompany">
+        <label>dei:EntityShellCompany</label>
+        <value>false</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <start>2019-01-01</start>
+        <endInstant>2019-12-31</endInstant>
+    </item>
+    <item name="dei:EntityPublicFloat">
+        <label>dei:EntityPublicFloat</label>
+        <unitRef>usd</unitRef>
+        <dec>0</dec>
+        <value>1941307497</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <endInstant>2019-06-30</endInstant>
+    </item>
+    <item name="dei:EntityCommonStockSharesOutstanding">
+        <label>dei:EntityCommonStockSharesOutstanding</label>
+        <unitRef>shares</unitRef>
+        <dec>INF</dec>
+        <value>79516833</value>
+        <entityScheme>http://www.sec.gov/CIK</entityScheme>
+        <entityIdentifier>0001704720</entityIdentifier>
+        <endInstant>2020-02-29</endInstant>
+    </item>
+</factList>
