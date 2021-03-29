@@ -36,14 +36,14 @@ def get_buffer(filing_xml_url: str, data_set: str, media: str, base_path: str = 
     # Log entrance
     logger.info("Retrieving parsed XBRL for {0} to memory".format(filing_xml_url))
     
-    # setting up final parameters string for request
+    # Setting up final parameters string for request
     final_params = media
     
-    # adding full listing of columns requested for facts data as required by Arelle server
+    # Adding full listing of columns requested for facts data as required by Arelle server
     if data_set == "facts":
         final_params = final_params + "&factListCols=Label,unitRef,Dec,Value,EntityScheme,EntityIdentifier,Period,Dimensions"
     
-    #Build URL    
+    # Build URL    
     remote_uri = ARELLE_BASE_URL + filing_xml_url + "/{0}?media={1}".format(data_set, final_params)
 
     # Try to retrieve the file
@@ -61,7 +61,7 @@ def get_buffer(filing_xml_url: str, data_set: str, media: str, base_path: str = 
                 # Sleep if set gt0
                 if HTTP_SLEEP_DEFAULT > 0:
                     time.sleep(HTTP_SLEEP_DEFAULT)
-        except Exception as e:  # pylint: disable=broad-except
+        except Exception as e: 
             # Handle and sleep
             if failures < len(HTTP_FAIL_SLEEP):
                 logger.warning("File {0}, failure {1}: {2}".format(remote_uri, failures, e))
