@@ -1,5 +1,5 @@
 # XBRL ETL App
-[view demo](https://www.google.com)
+[view demo (password: matt)](https://www.google.com)
 ## About
 This project provides for downloading XBRL (eXtensible Busienss Reporting Language) data from a REST API built on Arelle, an open-source project for interpreting XBRL.  It also provides models and methods that can be used to pull all data for a requested type of financial statement. A Jupyter Notebook serves as the user interface.
 
@@ -34,6 +34,9 @@ You'll need it to access the interface.
 * Click on the interface.ipynb file to open the interface.
 
 ## Usage
+#### Access
+If locally installed, please follow instructions above. If using demo, enter the password: "matt". Then click on the src folder and click on the interface.ipynb file.
+
 #### Arelle REST API and Client
 The Arelle REST API is a feature of the Arelle project that has been incorporated into a docker container. The API accepts a call with the web address on the SEC website for a XBRL instance file to be processed and a requested type of XBRL data file. The Arelle server provides several different types of XBRL data files that coincide with the specifications of the XBRL standard. The ones of particular concern for this project are:
 * pre.xml (presentation information on the line items and their order in each report/statement found in the filing)

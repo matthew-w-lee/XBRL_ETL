@@ -9,7 +9,7 @@ services:
       - "8080:8080"
 
   jupyter_notebook:
-    image: jupyter/scipy-notebook:17aba6048f44
+    image: kidicarus44/xbrl_etl
     command: ""
     volumes:
       - ./src/:/home/jovyan/src
