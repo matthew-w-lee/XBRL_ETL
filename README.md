@@ -1,8 +1,7 @@
 # XBRL ETL App
 [view demo](https://www.google.com)
 ## About
-This project provides for downloading XBRL data from a REST API provided by Arelle, an open-source project for interpreting XBRL, and further processing
-to pull all data for a requested type of financial statement. A Jupyter Notebook is used as the interface.
+This project provides for downloading XBRL (eXtensible Busienss Reporting Language) data from a REST API built on Arelle, an open-source project for interpreting XBRL.  It also provides models and methods that can be used to pull all data for a requested type of financial statement. A Jupyter Notebook serves as the user interface.
 
 ## Built With
 * [Arelle](https://github.com/Arelle/Arelle)
@@ -17,7 +16,7 @@ to pull all data for a requested type of financial statement. A Jupyter Notebook
 ```bash
     git clone https://github.com/matthew-w-lee/XBRL_ETL.git
 ```
-* Enter repository directory
+* Enter the repository's directory
 
 ```bash
     cd XBRL_ETL
@@ -36,16 +35,16 @@ You'll need it to access the interface.
 
 ## Usage
 #### Arelle REST API and Client
-The Arelle REST API is provided by a docker container. The API accepts a call with the web address on the SEC website of the XBRL instance file to be processed and a requested type of XBRL data file. The Arelle server provides several different types of XBRL data files coinciding with the specifications of the XBRL standard. The ones of particular concern for this project are:
+The Arelle REST API is a feature of the Arelle project that has been incorporated into a docker container. The API accepts a call with the web address on the SEC website for a XBRL instance file to be processed and a requested type of XBRL data file. The Arelle server provides several different types of XBRL data files that coincide with the specifications of the XBRL standard. The ones of particular concern for this project are:
 * pre.xml (presentation information on the line items and their order in each report/statement found in the filing)
 * facts.xml (numeric and date information related to each line item)
 
 #### Jupyter Notebook interface
-The Jupyter Notebook interface communicates with the Arelle REST API via methods provided by the arelle_client.py file. The notebook provides a method for downloading files obtained from the API to local disk but it is not necessary to use it in exploring this project. Sample xml files are included in the repository in the directory arelle_xbrl. The files are organized in folder, the first level being by CIK (a company's unique ID with the SEC) and then the second level being by accession number (a filing's unique ID with the SEC).
+The Jupyter Notebook interface communicates with the Arelle REST API via methods provided by the arelle_client.py file. The notebook provides a method for downloading files obtained from the API to local disk. Note however is it not available or necessary to explore this project). Sample xml files are included with the repository in the 'arelle_xbrl' directory. The files are organized by folder with the first level of folders being named after the CIK (a company's unique ID with the SEC) of a company and the second level named after the accession number (a filing's unique ID with the SEC) of a filing.
 
-The second cell of the notebook provides classes that model the downloaded XBRL files and the company/accession_number directory structure.
+The second cell of the notebook provides classes that model the downloaded XBRL files and the company cik/accession_number directory structure.
 
-The third cell provides the methods that can be used to pull information. Please see comments in that cell for further implementation details.
+The third cell provides the methods that can be used to pull information. Please see comments in that cell for further details on use.
 
 <!-- CONTACT -->
 ## Contact
