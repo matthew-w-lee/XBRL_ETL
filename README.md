@@ -1,7 +1,7 @@
 # XBRL ETL App
-[view demo (password: matt)](https://www.google.com)
+[view demo (password: matt)](http://161.35.250.95:8888)
 ## About
-This project provides for downloading XBRL (eXtensible Busienss Reporting Language) data from a REST API built on Arelle, an open-source project for interpreting XBRL.  It also provides models and methods that can be used to pull all data for a requested type of financial statement. A Jupyter Notebook serves as the user interface.
+This project provides for downloading XBRL (eXtensible Business Reporting Language) data from a REST API built on Arelle, an open-source project for interpreting XBRL.  It also provides models and methods that can be used to pull all data for a requested type of financial statement. A Jupyter Notebook serves as the user interface.
 
 ## Built With
 * [Arelle](https://github.com/Arelle/Arelle)
